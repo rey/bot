@@ -1,0 +1,10 @@
+#---------------- HUBOT CONFIG -----------------------------------
+
+export HUBOT_SLACK_TOKEN=
+export HUBOT_ADAPTER="slack"
+export HUBOT_PATH="/home/vagrant/hubot"
+
+#---------------- END HUBOT CONFIG --------------------------------
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
